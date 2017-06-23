@@ -1,0 +1,232 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+.create-cat-form .tab-content {
+    margin: 30px 0;
+}
+
+.edit-video-row .tab-content {
+    margin-top:30px;
+}
+.edit-video-row .col-md-8 {
+    margin-bottom: 30px;
+}
+
+.edit_video_container {
+    margin-top:40px;
+}
+
+....apx_picture_modal .modal-dialog {
+    width:85%;
+}
+
+.daterangepicker .ranges { width: 165px; }
+
+.bootstrap-tagsinput {
+    width:100%;
+}
+.bootstrap-tagsinput .label{
+    font-size: 100%;
+    line-height: 2;
+}
+
+.userView .col-md-8 {
+    padding-left:0;
+}
+
+.device-list .summary {
+    float:right;
+}
+
+.application-action-column {
+    width:85px;
+}
+
+.action-column-icon{
+    font-size: 20px;
+}
+
+/** это стили для вывода сообщений в стиле айоса. Жалко выкидывать
+.from-me {
+    position: relative;
+    padding: 10px 20px;
+    color: white;
+    background: #0B93F6;
+    border-radius: 25px;
+    float: left;
+}
+.from-me:before {
+    content:"";
+    position:absolute;
+    z-index:2;
+    bottom:-2px;
+    left:-7px;
+    height:20px;
+    border-left:20px solid #0B93F6;
+    border-bottom-right-radius: 16px 14px;
+    -webkit-transform:translate(0, -2px);
+}
+.from-me:after {
+    content:"";
+    position:absolute;
+    z-index:3;
+    bottom:-2px;
+    left:4px;
+    width:26px;
+    height:20px;
+    background:white;
+    border-bottom-right-radius: 10px;
+    -webkit-transform:translate(-30px, -2px);
+}
+.from-them {
+    position: relative;
+    padding: 10px 20px;
+    background: #E5E5EA;
+    border-radius: 25px;
+    color: black;
+    float: left;
+}
+.from-them:before {
+     content:"";
+     position:absolute;
+     z-index:2;
+     bottom:-2px;
+     left:-7px;
+     height:20px;
+     border-left:20px solid #E5E5EA;
+     border-bottom-right-radius: 16px 14px;
+     -webkit-transform:translate(0, -2px);
+}
+.from-them:after {
+     content:"";
+     position:absolute;
+     z-index:3;
+     bottom:-2px;
+     left:4px;
+     width:26px;
+     height:20px;
+     background:white;
+     border-bottom-right-radius: 10px;
+     -webkit-transform:translate(-30px, -2px);
+}
+.comment-wrapper {
+}
+.comment-wrapper div {
+    word-wrap: break-word;
+    line-height: 24px;
+}
+div.sms-clear {
+    clear: both;
+    height:1px;
+    line-height: 1px;
+    margin-bottom: 10px;
+}
+.from-me a {
+    color:white;
+    text-decoration: underline;
+}
+.from-them a {
+    text-decoration: underline;
+}
+*/
+
+.site-login {
+    text-align: center;
+    width:400px;
+    position:absolute;
+    left:50%;
+    margin-left:-200px;
+}
+
+.toggle-region-label {
+    cursor: pointer;
+}
